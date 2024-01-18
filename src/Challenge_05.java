@@ -5,9 +5,8 @@ public class Challenge_05 {
     public static void main(String[] args) {
 
         // Take 2 numbers and show results of +, -, /, &, and %.
-
+        System.out.println("-*-*-*-Arithmetic Operators-*-*-*-\n");
         Scanner  input = new Scanner(System.in);
-        System.out.println(" Arithmetic  Operations\n");
         System.out.print("Enter first number: ");
         int first = input.nextInt();
         System.out.print("Enter second number: ");
@@ -22,34 +21,24 @@ public class Challenge_05 {
         System.out.println("Addition is: " + add);
         System.out.println("Subtraction is: " + sub);
         System.out.println("Multiplication is: " + mul);
-
         System.out.println("Division is: " + div);
         System.out.println("Modulus is: " + mod);
-
-
-        int a = 10;
-        int b = 2;
-        int c = a + b;
-        System.out.println("Result of a + b = " + c);
-        int d = a - b;
-        System.out.println("Result of a - b = " + d);
-        int e = a * b;
-        System.out.println("Result of a * b = " + e);
-        int f = a / b;
-        System.out.println("Result of a / b = " + f);
-        int g = 13 / 4;
-        System.out.println("Result of a % b = " + g);
+        System.out.println("\n");
 
         // Product of two decimal numbers.
-
-        System.out.println("Enter 1st decimal number: ");
+        System.out.println("-*-*-*-Product of float-*-*-*-\n");
+        System.out.print("Enter 1st decimal number: ");
         double firstDecimalNumber =  input.nextDouble();
-        double h = 4.2;
-        double i = 5.0;
-        double j = h * i;
-        System.out.println("The product is: " + j);
+        System.out.print("Enter 2nd decimal number: ");
+        double secDecimalNumber =  input.nextDouble();
+
+        double product = firstDecimalNumber * secDecimalNumber;
+        System.out.println("The product is: " + product);
+        System.out.println("\n");
 
         // Area of a rectangle
+        System.out.println("-*-*-*-Area of Rectangle-*-*-*-\n");
+
         int sideA = 2;
         int sideB = 4;
         int sideC = 2;
