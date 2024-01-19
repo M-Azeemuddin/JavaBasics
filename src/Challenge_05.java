@@ -1,4 +1,3 @@
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class Challenge_05 {
@@ -38,28 +37,52 @@ public class Challenge_05 {
 
         // Area of a rectangle
         System.out.println("-*-*-*-Area of Rectangle-*-*-*-\n");
+        System.out.print("Enter rectangle Side A: ");
+        int sideA =  input.nextInt();
+        System.out.print("Enter rectangle Side B: ");
+        int sideB =  input.nextInt();
+        System.out.print("Enter rectangle Side C: ");
+        int sideC = input.nextInt();
+        System.out.print("Enter rectangle Side D: ");
+        int sideD = input.nextInt();
 
-        int sideA = 2;
-        int sideB = 4;
-        int sideC = 2;
-        int sideD = 4;
-        int p = sideA + sideB + sideC +sideD;
-        System.out.println("The perimeter of rectangle is: " + p);
+        int perimeter = sideA + sideB + sideC +sideD;
+        System.out.println("The perimeter of rectangle is: " + perimeter);
 
         // Area of a triangle
-        int B = 2;
-        int H = 4;
+
+        System.out.print("-*-*-*-Area of Triangle-*-*-*-\n");
+        System.out.print("Enter base of the triangle: ");
+        int B = input.nextInt();
+        System.out.println("Enter height of thr triangle: ");
+        int H = input.nextInt();
+
         int AT = (B*H)/2;
         System.out.println("The area of Triangle is: " + AT);
-
+        System.out.println("\n");
         // Simple Interest (PxTxR)/100
+        System.out.print("-*-*-*-Simple & Compound Interest Calculator-*-*-*-\n");
+        System.out.print("Principal Amount in Rs.: ");
+        double principal = input.nextDouble();
+        System.out.print("Terms in year: ");
+        double terms = input.nextDouble();
+        System.out.print("Interest rate: ");
+        double rate = input.nextDouble();
 
-        // Compound Interest P(1 + R/100)t
+        double simpleInterest = (principal*terms*rate)/100;
+        System.out.println("Simple Interest is: " + simpleInterest);
+
+        double compoundInterest = principal*(1+rate/100)*terms;
+        System.out.println("Compound Interest is: " + compoundInterest);
+        System.out.println("\n");
 
         // Convert fahrenheit to celsius C = (F -32) x 5/9
-        int F = 92;
-        int C = (F - 32) * 5/9;
-        System.out.println("92 F = " + C);
+        System.out.print("-*-*-*-Fahrenheit to Celsius Converter-*-*-*-\n");
+        System.out.print("Enter Fahrenheit: ");
+
+        double F = input.nextDouble();
+        double C = (F - 32) * 5/9;
+        System.out.println("F" + F + "= C "+ C);
 
     }
 }
