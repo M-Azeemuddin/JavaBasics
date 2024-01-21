@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Challenge_09 {
+public class _117_AgeGroupFinder {
     public static void main(String[] args) {
         // Age Group Finder
         System.out.println("**** Find your Age Group ****\n");
