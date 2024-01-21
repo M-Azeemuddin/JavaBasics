@@ -1,4 +1,4 @@
-public class Challenge_02 {
+public class _103_PatternInLine {
     //Draw pattern in one line
     public static void main(String[] args) {
         System.out.println("* \n* * \n* * * \n* * * * \n* * * * *");

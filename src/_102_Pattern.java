@@ -1,4 +1,4 @@
-public class Challenge_01 {
+public class _102_Pattern {
     //Draw pattern on screen
     public static void main(String[] args) {
         System.out.println("This s Left Half Pyramid");

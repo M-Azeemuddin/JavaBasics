@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Challenge_03 {
+public class _104_Input {
     // Input
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
