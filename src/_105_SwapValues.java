@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Challenge_04 {
+public class _105_SwapValues {
     // Swap Value
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
