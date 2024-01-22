@@ -4,7 +4,12 @@ public class _118_BitwiseAndOperator {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        // Bitwise Operators
+        /* Bitwise & Operator
+         **** Example ****
+        *  1100 - 12
+        *  0101 -  5
+        * ----------
+        *  0100 - 4 ans */
 
         System.out.println("***** Bitwise And '&' operator ***** \n");
 

@@ -7,6 +7,11 @@ public class _122_BitwiseLeftShiftOperator {
 
         System.out.println("***** Bitwise LeftShift '<<' operator ***** \n");
 
+        /* Bitwise & Operator
+         **** Example ****
+         *  12 = 1100 << 1 = 1000 - 8 ans.
+         *  4  = 0100 << 1 = 1000 - 8 ans */
+
         System.out.print("Enter a number: ");
         int firstLs = input.nextInt();
 

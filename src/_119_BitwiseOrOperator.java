@@ -3,6 +3,14 @@ import java.util.Scanner;
 public class _119_BitwiseOrOperator {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
+
+        /* Bitwise | Operator
+         **** Example ****
+         *  1100 - 12
+         *  0101 -  5
+         * ----------
+         *  1101 - 13 ans */
+
         System.out.println("***** Bitwise Or '|' operator ***** \n");
 
         System.out.print("Enter first number: ");

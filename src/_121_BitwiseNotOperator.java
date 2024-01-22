@@ -5,6 +5,11 @@ public class _121_BitwiseNotOperator {
         Scanner input = new Scanner(System.in);
         System.out.println("***** Bitwise Not/Compliment '~' operator ***** /n");
 
+        /* Bitwise ~ Operator
+         **** Example ****
+         *  1100 - 12
+         * ----------
+         *  0011 --13 ans */
         System.out.print("Enter a number: ");
         int firstNot = input.nextInt();
 
